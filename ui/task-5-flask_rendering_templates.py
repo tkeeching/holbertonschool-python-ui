@@ -18,7 +18,7 @@ display “Hello James, today’s date is 2024-06-12.
 """
 
 from flask import Flask, render_template
-from datetime import datetime, timedelta
+from datetime import datetime
 from pytz import timezone
 
 app = Flask(__name__)
